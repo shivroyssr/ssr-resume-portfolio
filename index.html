@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Shiv Roy | Social Media marketing &amp; AI Content Creator</title>
-<meta name="description" content="Explore the professional portfolio, sample projects, digital content work, AI tools, and experience of Shiv Shanker Roy.">
+<meta name="description" content="Explore the professional portfolio, sample projects, digital content work, AI tools, and experience of Shiv Roy.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Shiv Roy | Social Media Designer &amp; AI Content Creator">
-<meta property="og:description" content="Explore the professional portfolio, sample projects, digital content work, AI tools, and experience of Shiv Shanker Roy.">
+<meta property="og:description" content="Explore the professional portfolio, sample projects, digital content work, AI tools, and experience of Shiv Roy.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🎨</text></svg>">
 <style>
 *,*::before,*::after{box-sizing:border-box}
@@ -191,7 +191,7 @@ else if(a.hasAttribute("data-resume")){if(window.claude){e.preventDefault();save
 if(a.closest("nav"))setMenu(false)});
 const saveResume=async()=>{try{const d=await claude.use("downloads");if(!d){toast("Resume download isn’t available in this view. Open the page in a browser tab and try again.");return}
 const t=atob($("#rpdf").textContent.trim()),u=new Uint8Array(t.length);for(let i=0;i<t.length;i++)u[i]=t.charCodeAt(i);
-await d.save({filename:"Shiv-Shanker-Roy-Resume.pdf",data:u})}catch(x){if(!x||x.code!=="declined")toast("The resume couldn’t be saved. Please try again.")}};
+await d.save({filename:"Shiv-Roy-Resume.pdf",data:u})}catch(x){if(!x||x.code!=="declined")toast("The resume couldn’t be saved. Please try again.")}};
 $("#vr").onclick=e=>{const b=e.currentTarget,s=$("#doc").classList.toggle("show");b.setAttribute("aria-expanded",s);b.innerHTML=ic("eye")+(s?"Hide Resume":"View Resume")};
 $("#pr").onclick=()=>{$("#doc").classList.add("show");$("#vr").innerHTML=ic("eye")+"Hide Resume";window.print()};
 $("#cf").onsubmit=e=>{e.preventDefault();const f=e.target.elements,v=k=>f[k].value.trim(),er={};
